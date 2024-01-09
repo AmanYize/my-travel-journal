@@ -1,0 +1,49 @@
+
+[
+    {
+        "img": "florence.jpeg",
+        "country": "Italy",
+        "location": "Florence",
+        "date": "12 Jan, 2025 - 25 Jan, 2025",
+        "description": "Located in the central part of Italy, Florence is the capital of Tuscany Region, it has approximately 380,000 inhabitants – and up to one million in the metropolitan area- for 102 kmq. The Arno River runs through the city and a series of bridges connects its two banks including the famous Ponte Vecchio." 
+        
+    },
+    {
+        "img": "rome.jpg",
+        "country": "Italy",
+        "location": "Rome The Colosseum",
+        "date": "06 Feb, 2025 - 17 Feb, 2025",
+        "description": "Rome is a city and special comune (named Roma Capitale) in Italy. Rome is the capital of Italy and also of the Province of Rome and of the region of Lazio."
+    },
+    {
+        "img": "tokyo.png",
+        "country": "Japan",
+        "location": "Tokyo",
+        "date": "08 March, 2025 - 21 March, 2025",
+        "description": "Located at the head of Tokyo Bay, Tokyo is part of the Kantō region on the central coast of Honshu, Japan's largest island. "
+    },
+    {
+        "img": "hawaii.png",
+        "country": "USA",
+        "location": "Hawaii",
+        "date": "03 June, 2026 - 15 March, 2026",
+        "description": "Hawaii is an island state in the Western United States, about 2,000 miles (3,200 km) from the U.S. mainland in the Pacific Ocean."
+    },
+    {
+        "img": "Machu Picchu.jpg",
+        "country": "Peru",
+        "location": "Machu Picchu",
+        "date": "05 July, 2026 - 18 July, 2026",
+        "description": "Machu Picchu is a 15th-century Inca citadel located in the Eastern Cordillera of southern Peru on a 2,430-meter (7,970 ft) mountain ridge."
+    },
+    {
+        "img": "kuriftu.png",
+        "country": "Ethiopia",
+        "location": "Kuriftu Resort",
+        "date": "09 December, 2022 - 09 December, 2022",
+        "description": "Located on the northen tip of Bishoftu encompassing the smallest of the four lakes lies our flagship resort, Kuriftu Resort & Spa Bishoftu."
+    }
+
+   
+]
+

@@ -1,38 +1,155 @@
-.App {
-  text-align: center;
+body{
+  background: rgb(255,255,255);
+  background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(124,250,209,1) 100%);
+}
+.App{
+  margin: 0;
+  width: 100%;
+  height: 100%;
+ 
+ 
+ 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#root{
+  height: 100%;
+ 
 }
+/* SECTION*/
+/* NAV SECTION*/
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar{
+  width: 100%;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  height: 5rem;
+  background: rgb(255,255,255);
+background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(0,255,174,1) 100%);
+  box-shadow: 0 1px 10px 0 rgb(0, 128, 91);
+  margin-bottom: 1.5rem;
+}
+.world-logo, .nav-text{
   color: white;
+  font-family: 'Salsa', cursive;
+  font-size: 2rem;
+  font-weight: bold;
+  text-shadow: -1px -1px 14px rgba(0,0,0,0.6);
 }
 
-.App-link {
-  color: #61dafb;
+/*CARD SECTION*/
+
+.card-body{
+  width: 24.5rem;
+  display: flex;
+  gap: 0.5rem;
+  margin: 0.5rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card--img--box{
+  width: 150px;
+ 
+  height: 100%;
+  border-radius: 0.5rem;
+  box-shadow: 0 5px 8px 0 rgb(168, 241, 255);
 }
+
+.descriptions-box{
+  width: 250px;
+  
+  height: 100%;
+  
+}
+
+.card--img{
+  width: 100%;
+  height: 100%; 
+  object-fit: cover;
+  object-position: 50% 50%;
+  border-radius: 0.5rem;
+}
+
+.location{
+  margin-top: 0.5rem;
+  
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.loc-icon{
+  color: #F55A5A;
+  width: 0.8rem;
+}
+
+.country{
+  font-family: 'Inter', sans-serif;
+  color: #595959;
+  font-size: 0.8rem;
+}
+
+.maps{
+  color: #918E9B;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.7rem;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.maps:hover{
+  color: #6de1e1;
+}
+
+.loc-name-box{
+  display: flex;
+  align-items: center;
+  height: 2.5rem;
+}
+
+.loc-name{
+  font-family: 'Salsa', 'Inter', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #2B283A;
+  margin-left: 0.5rem;
+}
+
+.date-box{
+  display: flex;
+  align-items: center;
+  
+}
+
+.date{
+  font-family: 'Inter', sans-serif;
+  font-size: 0.7rem;
+  font-weight: bold;
+  margin-left: 0.5rem;
+}
+
+.description{
+  width: 100%;
+  height: 5.5rem!important;
+  margin-top: 0.8rem;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+}
+.des-text{
+  margin-left: 0.2rem;
+}
+
+.description:hover{
+  overflow: auto;
+}
+
+.places{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
